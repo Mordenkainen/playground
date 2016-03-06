@@ -13,6 +13,8 @@ public class ExampleMod
     public static final String MODID = "examplemod";
     public static final String VERSION = "1.0";
     
+    private String bar = new String("bar"); // just do a String bar = "bar";
+    
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
