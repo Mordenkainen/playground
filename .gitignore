@@ -1,0 +1,7 @@
+/bin/
+/minecraft/
+/build/
+/.project
+/.classpath
+/.gradle
+/.settings
