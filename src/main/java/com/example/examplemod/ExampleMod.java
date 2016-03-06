@@ -20,5 +20,8 @@ public class ExampleMod
     {
 		// some example code
         System.out.println(("DIRT BLOCK2 >> "+Blocks.dirt.getUnlocalizedName().toString()));
+        if(1 == 1) {
+        	
+        }
     }
 }
