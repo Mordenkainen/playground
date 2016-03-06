@@ -1,8 +1,10 @@
 language: java
 
-install:
- - chmod +X ./gradlew
- - ./gradlew setupCIWorkspace
+before_install:
+ - chmod +x gradlew
+
+install: ./gradlew setupCIWorkspace
+
 script:
  - ./gradlew build
  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
